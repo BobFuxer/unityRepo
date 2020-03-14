@@ -1,0 +1,153 @@
+fileFormatVersion: 2
+guid: be22c27c97048bc48818193114f76215
+ModelImporter:
+  serializedVersion: 26
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Invalid Avatar Rig Configuration. Missing or invalid transform:\n\tRequired
+      human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - fc710f664110051409974c4b30ca7cfb
+  - 838e9f7019743e14ca1b9e9804ef4084
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Seinfield(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Seinfield_Eyelid_Left
+      parentName: Seinfield(Clone)
+      position: {x: 0.00072686654, y: 0.012229149, z: 0.00079225004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9887054, y: 0.9887054, z: 0.9887054}
+    - name: Seinfield_Eyelid_Right
+      parentName: Seinfield(Clone)
+      position: {x: 0.00072686654, y: 0.012229149, z: 0.00079225004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9887054, y: 0.9887054, z: 0.9887054}
+    - name: Seinfield_Eyebrow_Left
+      parentName: Seinfield(Clone)
+      position: {x: 0.00072686654, y: 0.012229149, z: 0.00079225004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9887054, y: 0.9887054, z: 0.9887054}
+    - name: Seinfeld_Eyebrow_Right
+      parentName: Seinfield(Clone)
+      position: {x: 0.00072686654, y: 0.012229149, z: 0.00079225004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9887054, y: 0.9887054, z: 0.9887054}
+    - name: Seinfeld_Mouth
+      parentName: Seinfield(Clone)
+      position: {x: 0.0000000015646219, y: -0.037180703, z: 0.26841202}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9887054, y: 0.9887054, z: 0.9887054}
+    - name: Seinfield_Pants
+      parentName: Seinfield(Clone)
+      position: {x: 0.0000000015646219, y: -1.100887, z: 0.25403383}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Seinfield_Torso
+      parentName: Seinfield(Clone)
+      position: {x: 0.00073517003, y: -1.6639612, z: 0.29458305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Seinfield_Face
+      parentName: Seinfield(Clone)
+      position: {x: 0.0000000015646219, y: -0.037180703, z: 0.26841202}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9887054, y: 0.9887054, z: 0.9887054}
+    - name: Seinfield_Shoes
+      parentName: Seinfield(Clone)
+      position: {x: 0.07781112, y: -1.5991151, z: 0.31915623}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Seinfield_Hair
+      parentName: Seinfield(Clone)
+      position: {x: -0, y: 0.027366642, z: 0.38403586}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

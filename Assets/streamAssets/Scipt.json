@@ -1,0 +1,626 @@
+{
+  "setData": [
+    {
+      "characters": [
+        {
+          "name": "Jerry",
+          "startLocation": [ 2, 1, -2 ]
+        },
+        {
+          "name": "George",
+          "startLocation": [ -2, 0.5, -1 ]
+        },
+        {
+          "name": "Elaine",
+          "startLocation": [ 0, 0.5, -3 ]
+        }
+      ]
+    }
+  ],
+  "cameras": [
+    {
+      "name": "broadShot",
+      "location": [ 0, 2.569, -7.317 ],
+      "cameraRange": [ 0.3273250008360642, -0.2243652629031281, -0.3153263726075417 ]
+    },
+    {
+      "name": "sideShot",
+      "location": [ 2.9, 1.97, -5.64 ],
+      "cameraRange": [ 0.06377503804474387, 0.17872747572907627, 0.24560653662875678 ]
+    },
+    {
+      "name": "sideShot",
+      "location": [ -2.92, 197, -5.64 ],
+      "cameraRange": [ -0.11009556525754119, -0.2858666787511104, -0.7392268113321456 ]
+    }
+  ],
+  "cameraEvents": [
+    {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 0,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 2.377653228839797,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Elaine",
+            "startTime": 8.525472518467065,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 12.634523465662877,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - George",
+            "startTime": 14.052961104713038,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - George",
+            "startTime": 22.415727286727137,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 30.862822224075888,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 37.76985283748223,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 42.729491100932975,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+    {
+      "eventType": "Camera",
+      "shotType": "Focus - George",
+      "startTime": 44.31461074206676,
+      "camera": {
+        "name": "broadShot",
+        "location": [
+          0.3007541064435454,
+          2.739180653431555,
+          -6.306301523119904
+        ]
+      }
+    },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Elaine",
+            "startTime": 46.35606622554052,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Elaine",
+            "startTime": 49.18512230164275,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 56.55250727597913,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 59.97010050416085,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - George",
+            "startTime": 68.00845555922602,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 71.32813437829968,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 75.07795122062504,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 84.23063333935956,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 91.16646690541754,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Elaine",
+            "startTime": 94.66356116370613,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 98.61452072880627,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - George",
+            "startTime": 104.77700184995332,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 114.113827607936,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 125.8204876778755,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Elaine",
+            "startTime": 136.5723811705585,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "BroadShot",
+            "startTime": 144.06573796291246,
+            "camera": {
+                "name": "broadShot",
+                "location": [
+                    0.3007541064435454,
+                    2.739180653431555,
+                    -6.306301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Jerry",
+            "startTime": 154.52664662921168,
+            "camera": {
+                "name": "sideShot2",
+                "location": [
+                    -2.6192458935564544,
+                    197.17018065343157,
+                    -4.629301523119904
+                ]
+            }
+        },
+        {
+            "eventType": "Camera",
+            "shotType": "Focus - Elaine",
+            "startTime": 156.4403172021523,
+            "camera": {
+                "name": "sideShot",
+                "location": [
+                    3.2007541064435454,
+                    2.140180653431555,
+                    -4.629301523119904
+                ]
+            }
+        }
+  ],
+  "Events": [
+    {
+      "characterName": "George",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/10_George.wav",
+      "duration": 1.979375,
+      "startTime": 0
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/13_Elaine.wav",
+      "duration": 2.1937083333333334,
+      "startTime": 3.918025968979616
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/7_Jerry.wav",
+      "duration": 3.2460416666666667,
+      "startTime": 18.7615692765794035
+    },
+    {
+      "duration": 2.3271875,
+      "startTime": 22.064453161,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_33.wav"
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/21_Elaine.wav",
+      "duration": 2.835,
+      "startTime": 24.140377570568608
+    },
+    {
+      "duration": 3.0785,
+      "startTime": 12.769798861877447,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_32.wav"
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/22_Jerry.wav",
+      "duration": 2.2041666666666666,
+      "startTime": 15.84341780773936
+    },
+    {
+      "duration": 3.508625,
+      "startTime": 17.69406066466003,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_01.wav"
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/11_Jerry.wav",
+      "duration": 3.627,
+      "startTime": 21.627742641744966
+    },
+    {
+      "characterName": "George",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/18_George.wav",
+      "duration": 1.4829166666666667,
+      "startTime": 25.165846053868407
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/1_Jerry.wav",
+      "duration": 1.8526666666666667,
+      "startTime": 26.753105370658265
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/19_Elaine.wav",
+      "duration": 3.486291666666667,
+      "startTime": 28.4129880317443
+    },
+    {
+      "duration": 6.0093125,
+      "startTime": 31.238355530174516,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_10.wav"
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/5_Jerry.wav",
+      "duration": 2.7179166666666665,
+      "startTime": 37.49722055288103
+    },
+    {
+      "characterName": "George",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/0_George.wav",
+      "duration": 4.625166666666667,
+      "startTime": 40.96625332085241
+    },
+    {
+      "duration": 3.508625,
+      "startTime": 45.661463871106406,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_01.wav"
+    },
+    {
+      "characterName": "George",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/2_George.wav",
+      "duration": 3.98575,
+      "startTime": 49.834116286325084
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/15_Elaine.wav",
+      "duration": 2.359958333333333,
+      "startTime": 53.36605636987315
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/4_Elaine.wav",
+      "duration": 2.28475,
+      "startTime": 56.03882674743478
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/14_Jerry.wav",
+      "duration": 4.378416666666666,
+      "startTime": 58.393342132325266
+    },
+    {
+      "characterName": "George",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/12_George.wav",
+      "duration": 5.132416666666667,
+      "startTime": 63.14460992962509
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/16_Jerry.wav",
+      "duration": 5.92975,
+      "startTime": 68.15191781613935
+    },
+    {
+      "characterName": "George",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/8_George.wav",
+      "duration": 5.600958333333334,
+      "startTime": 73.92998443230785
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/3_Jerry.wav",
+      "duration": 6.81575,
+      "startTime": 79.30030725540463
+    },
+    {
+      "duration": 3.4644375,
+      "startTime": 85.84330276779971,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_06.wav"
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/17_Elaine.wav",
+      "duration": 3.4255833333333334,
+      "startTime": 89.1606841980403
+    },
+    {
+      "duration": 2.8664375,
+      "startTime": 92.43713101334707,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_23.wav"
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/6_Elaine.wav",
+      "duration": 6.95625,
+      "startTime": 95.18699537662998
+    },
+    {
+      "duration": 5.584875,
+      "startTime": 102.21905897090011,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_02.wav"
+    },
+    {
+      "characterName": "Elaine",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/9_Elaine.wav",
+      "duration": 6.3105416666666665,
+      "startTime": 107.6965511249446
+    },
+    {
+      "duration": 3.79475,
+      "startTime": 113.96574772540629,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_20.wav"
+    },
+    {
+      "characterName": "Jerry",
+      "eventType": "CharacterLine",
+      "fileName": "https://ttstemp.s3.us-east-2.amazonaws.com/20_Jerry.wav",
+      "duration": 16.182916666666667,
+      "startTime": 118.63124528388646
+    },
+    {
+      "duration": 6.0093125,
+      "startTime": 135.41932691635006,
+      "eventType": "LaughTrack",
+      "fileName": "laughs/a_laugh track 1_10.wav"
+    }
+  ]
+}
