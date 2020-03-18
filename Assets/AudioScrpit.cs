@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine.Networking;
 using UnityEngine;
+using UnityEngine.UI;
 using System.Runtime.Serialization;
 using System;
 using System.IO;
@@ -15,6 +16,8 @@ THIS HAS BECOME A MEGA FILE BASED ON THE ADVICE OF EDWARD JAMES GARMON
 
 public class AudioScrpit : MonoBehaviour
 {
+
+    public movementMan movescript;
     public GameObject cam_Broad;
     public Transform broad_Point;
     public Transform jerry_Point;
@@ -38,6 +41,22 @@ public class AudioScrpit : MonoBehaviour
     }
 
     [Serializable]
+    public class movement
+    {
+        
+        public string eventType;
+        public string character;
+
+        [Serializable]
+        public class node
+        {
+            public string character;
+            public int[] location;
+        }
+
+    }
+
+    [Serializable]
     public class genericEvent
     {
         public string characterName;
@@ -46,6 +65,7 @@ public class AudioScrpit : MonoBehaviour
         public double duration;
         public float startTime;
         public float delay;
+        public string character;
 
         public string shotType;
        
@@ -55,6 +75,13 @@ public class AudioScrpit : MonoBehaviour
         {
             public string name;
             public Vector3 location;
+        }
+
+        [Serializable]
+        public class node
+        {
+            public string character;
+            public int[] location;
         }
     }
 
@@ -314,6 +341,16 @@ public class AudioScrpit : MonoBehaviour
             {
                 StartCoroutine(playLaugh(genericEvents[i].fileName, 0));
                 delay += genericEvents[i].delay;
+            }
+
+            else if (genericEvents[i].eventType == "movement")
+            {
+                Debug.Log("MOVEMENT DEBUG\n");
+                movescript.active = true;
+                movescript.seinfeldChar = genericEvents[i].character;
+                //  movescript.character = genericEvents[i].character;
+                //movescript.animationSource = .5f;
+                ;
             }
 
         }

@@ -1,59 +1,60 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.UI;
 using UnityEngine;
 
 public class movementMan : MonoBehaviour
 {
-    public List<Transform> targets = new List<Transform>();
+    public string seinfeldChar = "George";
     public Transform target;
-    public Transform character;
     public float speed;
     // Start is called before the first frame update
-    public GameObject animationSource;
+    public GameObject source;
     private Animator anim;
     private UnityEngine.AI.NavMeshAgent agent;
+    private Transform character;
 
     void Start()
     {
-        anim = animationSource.GetComponent<Animator>();
-        agent = animationSource.GetComponent<UnityEngine.AI.NavMeshAgent>();
-       
+        anim = source.GetComponent<Animator>();
+        agent = source.GetComponent<UnityEngine.AI.NavMeshAgent>();
+        character = source.GetComponent<Transform>();
     }
-    int i = 0;
+    public bool active = false;
 
-    // Update is called once per frame
+
     void Update()
     {
+        if (active == true) {
 
-        //  if (i < targets.Count)
-        //  {
+            StartCoroutine(setCharacter(seinfeldChar));
 
-        agent.SetDestination(target.position);
+            agent.SetDestination(target.position);
 
-        if (Vector3.Distance(character.position, target.position) < 1.2)
+        if (Vector3.Distance(character.position, target.position) < 2)
             {
                 anim.SetBool("Walking", false);
-               // i++;
+            active = false;
+     
             }
 
             else
             {
                 anim.SetBool("Walking", true);
-             //   agent.SetDestination(targets[i].position);
+    
             }
-      //  }
 
-           /* float step = speed * Time.deltaTime;
-        character.transform.position = Vector3.Lerp(character.position, target.position, step);
-        character.transform.LookAt(target.position);
-        if (speed >= .2)
-        {
-            anim.SetBool("Walking", true);
         }
-        else if (speed < .2)
-        {
-            anim.SetBool("Walking", false);
-        }
-        */
+    }
+
+    IEnumerator setCharacter(string tag)
+    {
+
+        source = GameObject.FindGameObjectsWithTag(tag)[0];
+        anim = source.GetComponent<Animator>();
+        agent = source.GetComponent<UnityEngine.AI.NavMeshAgent>();
+        character = source.GetComponent<Transform>();
+
+        yield return 0;
     }
 }
