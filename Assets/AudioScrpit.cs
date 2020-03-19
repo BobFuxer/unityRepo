@@ -51,9 +51,18 @@ public class AudioScrpit : MonoBehaviour
         public class node
         {
             public string character;
+            public string name;
             public int[] location;
         }
 
+    }
+
+    [Serializable]
+    public class node
+    {
+        public string character;
+        public int[] location;
+        public string name;
     }
 
     [Serializable]
@@ -68,7 +77,7 @@ public class AudioScrpit : MonoBehaviour
         public string character;
 
         public string shotType;
-       
+        public node node;
 
         [Serializable]
         public class camera
@@ -77,12 +86,7 @@ public class AudioScrpit : MonoBehaviour
             public Vector3 location;
         }
 
-        [Serializable]
-        public class node
-        {
-            public string character;
-            public int[] location;
-        }
+
     }
 
     [Serializable]
@@ -348,6 +352,7 @@ public class AudioScrpit : MonoBehaviour
                 Debug.Log("MOVEMENT DEBUG\n");
                 movescript.active = true;
                 movescript.seinfeldChar = genericEvents[i].character;
+                movescript.targetString = genericEvents[i].node.name;
                 //  movescript.character = genericEvents[i].character;
                 //movescript.animationSource = .5f;
                 ;
