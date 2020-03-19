@@ -14,7 +14,7 @@ using System.Web;
 THIS HAS BECOME A MEGA FILE BASED ON THE ADVICE OF EDWARD JAMES GARMON
 */
 
-public class AudioScrpit : MonoBehaviour
+public class MainScript : MonoBehaviour
 {
 
     public movementMan movescript;

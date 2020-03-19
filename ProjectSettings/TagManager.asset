@@ -7,6 +7,10 @@ TagManager:
   - Jerry
   - George
   - Elaine
+  - kitchen
+  - desk
+  - livingRoom
+  - doorWay
   layers:
   - Default
   - TransparentFX
